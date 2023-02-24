@@ -19,7 +19,7 @@ public class LoginTest extends BaseTest{
 		TestCaseID = "1140";
 		//test = extent.createTest("verifyPage TitleTest").assignAuthor("Brijesh").assignCategory("Smoke").assignDevice("Windows");
 		String title= basePage.getInstancePage(LoginPage.class).getTitle();
-		Assert.assertEquals(title, "Netsweeper  A WebAdmin");//updated
+		Assert.assertEquals(title, "Netsweeper WebAdmin");//updated
 	}
 	 
 	

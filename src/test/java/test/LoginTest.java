@@ -11,7 +11,7 @@ import pages.LoginPage;
 public class LoginTest extends BaseTest{
 
     //netsweeper2
-=======
+
     //netsweeper
 
 	@Test(priority =1)

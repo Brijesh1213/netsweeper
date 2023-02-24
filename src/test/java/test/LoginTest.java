@@ -10,16 +10,16 @@ import pages.LoginPage;
 
 public class LoginTest extends BaseTest{
 
-    //jermey
-
-   
+   //jermey
+    //rohit
+ 
 
 	@Test(priority =1)
 	public void verifyPageTitleTest() throws Throwable {
 		TestCaseID = "1140";
 		//test = extent.createTest("verifyPage TitleTest").assignAuthor("Brijesh").assignCategory("Smoke").assignDevice("Windows");
 		String title= basePage.getInstancePage(LoginPage.class).getTitle();
-		Assert.assertEquals(title, "Netsweeper  A WebAdmin");//updated
+		Assert.assertEquals(title, "Netsweeper WebAdmin");//updated
 	}
 	 
 	

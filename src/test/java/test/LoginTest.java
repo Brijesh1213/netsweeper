@@ -10,9 +10,7 @@ import pages.LoginPage;
 
 public class LoginTest extends BaseTest{
 
-    //netsweeper2
-
-    //netsweeper
+    //rohit
 
 	@Test(priority =1)
 	public void verifyPageTitleTest() throws Throwable {
